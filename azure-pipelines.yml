@@ -57,8 +57,5 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: 'Publish Artifact: drop'
   condition: succeeded()
-resources:
-  pipelines:
-  - pipeline: securitylib
-    source: security-lib-ci
+
 
